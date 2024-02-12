@@ -1,0 +1,32 @@
+Jucatorul 1 are un procentaj de castig de 54.949999999999996%
+Jucatorul 2 are un procentaj de castig de 45.050000000000004%
+lolluckestar@lolluckestar-Inspiron-15-3511:~/Desktop/Anul III/Sem I/PMP/Lab/PMP-2023/Partial$ python3 Ex1_2.py
+WARNING:pgmpy:BayesianModel has been renamed to BayesianNetwork. Please use BayesianNetwork class, BayesianModel will be removed in future.
+WARNING:pgmpy:BayesianModel has been renamed to BayesianNetwork. Please use BayesianNetwork class, BayesianModel will be removed in future.
+WARNING:pgmpy:BayesianModel has been renamed to BayesianNetwork. Please use BayesianNetwork class, BayesianModel will be removed in future.
++-------------+-------------+--------------------------+
+| Jucator1    | Jucator2    |   phi(Jucator1,Jucator2) |
++=============+=============+==========================+
+| Jucator1(0) | Jucator2(0) |                   0.2135 |
++-------------+-------------+--------------------------+
+| Jucator1(0) | Jucator2(1) |                   0.2149 |
++-------------+-------------+--------------------------+
+| Jucator1(0) | Jucator2(2) |                   0.0523 |
++-------------+-------------+--------------------------+
+| Jucator1(1) | Jucator2(0) |                   0.2306 |
++-------------+-------------+--------------------------+
+| Jucator1(1) | Jucator2(1) |                   0.2322 |
++-------------+-------------+--------------------------+
+| Jucator1(1) | Jucator2(2) |                   0.0565 |
++-------------+-------------+--------------------------+
+lolluckestar@lolluckestar-Inspiron-15-3511:~/Desktop/Anul III/Sem I/PMP/Lab/PMP-2023/Partial$ python3 Ex1_3.py
+WARNING:pgmpy:BayesianModel has been renamed to BayesianNetwork. Please use BayesianNetwork class, BayesianModel will be removed in future.
+WARNING:pgmpy:BayesianModel has been renamed to BayesianNetwork. Please use BayesianNetwork class, BayesianModel will be removed in future.
+WARNING:pgmpy:BayesianModel has been renamed to BayesianNetwork. Please use BayesianNetwork class, BayesianModel will be removed in future.
++-----------------+---------------------+
+| AruncaMoneda    |   phi(AruncaMoneda) |
++=================+=====================+
+| AruncaMoneda(0) |              0.5858 |
++-----------------+---------------------+
+| AruncaMoneda(1) |              0.4142 |
++-----------------+---------------------+
